@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/MartinBekkelund/CloudCam/master/assets/img/CloudCam_logo.jpg "CloudCam")
+![CloudCam](https://raw.githubusercontent.com/MartinBekkelund/CloudCam/master/CloudCam_logo.jpg "CloudCam")
 
 # CloudCam
 
