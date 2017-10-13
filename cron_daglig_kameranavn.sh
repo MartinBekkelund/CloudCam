@@ -12,7 +12,7 @@ tar -czf /mnt/disknavn/CloudCam/kameranavn/backup/kameranavn_backup_$(date +%Y-%
 # NO: 30 indikerer bilder per sekund og finnes to steder
 # EN: Make time stamped time-lapse
 # EN: 30 indicates frames per second and is found twice
-avconv -r 30 -i /mnt/disknavn/CloudCam/kameranavn/input/%*.jpg -r 30 -vcodec libx264 -crf 20 -g 15 /mnt/disknavn/CloudCam/kameranavn/output/kameranavn_daglig_$(date +%Y-%m-%d).mp4
+avconv -r 30 -i /mnt/disknavn/CloudCam/kameranavn/input/%*.jpg -r 30 -vcodec libx264 -crf 25 -preset slow -g 15 /mnt/disknavn/CloudCam/kameranavn/output/kameranavn_daglig_$(date +%Y-%m-%d).mp4
 
 # NO: Slette input-filer
 # EN: Delete input files
